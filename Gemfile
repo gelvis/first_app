@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem "sqlite3-ruby"
 gem 'execjs'
 gem 'therubyracer'
 
@@ -17,4 +16,7 @@ end
 gem 'jquery-rails', '2.0.2'
 group :production do
   gem 'pg', '0.12.2'
+end
+group :development, :test do
+  gem "sqlite3-ruby", :require => "sqlite3"
 end
