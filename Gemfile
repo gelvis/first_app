@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'sqlite3', "1.3.6"
+gem "sqlite3-ruby"
 gem 'execjs'
 gem 'therubyracer'
 
